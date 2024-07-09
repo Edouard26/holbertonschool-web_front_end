@@ -1,0 +1,5 @@
+# Find all files containing the specified lines and loop through them
+grep -rl '<link rel="icon" type="image/x-icon" href="./favicon.ico">' . | while read -r file ; do
+  # Use sed to replace "/html_advanced" with "." for both lines in each file
+  sed -i 's|./favicon.ico|./favicon.ico|g' "$file"
+  sed -i 's|./favicon.png|./favicon.png|g' "$file"

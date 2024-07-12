@@ -233,8 +233,8 @@
   
   .card-testimonial .card-avatar {
     border-radius: 50%;
-    width: calc(10 * var(--root-element));
-    height: calc(10 * var(--root-element));
+    width: 10rem;
+    height: 10rem;
   }
   
   .card-testimonial .card-quote cite {

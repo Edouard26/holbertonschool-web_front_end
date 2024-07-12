@@ -13,3 +13,6 @@
   body {
     font-size: var(--font-size-medium);
   }
+  .section-tagline, .card-category {
+    color: var(--color-primary);
+}
